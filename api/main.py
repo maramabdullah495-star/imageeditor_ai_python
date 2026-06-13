@@ -2,6 +2,8 @@ from fastapi import FastAPI, UploadFile, File
 import cv2
 import numpy as np
 
+from src.object_detection import detect_objects
+
 
 app = FastAPI(
     title="AI Image Processing API"
@@ -30,11 +32,11 @@ async def process_image(file: UploadFile = File(...)):
         cv2.IMREAD_COLOR
     )
 
-    height, width, _ = img.shape
+
+    result = detect_objects(img)
+
 
     return {
         "filename": file.filename,
-        "width": width,
-        "height": height,
-        "status": "image received"
+        "result": result
     }
