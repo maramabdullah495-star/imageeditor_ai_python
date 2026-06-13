@@ -1,18 +1,21 @@
-from src import image_viewer
-from src import object_detection
+from src.image_viewer import show_image
+from src.object_detection import detect_objects
 
 
 print("AI Image Processing Project")
+print("---------------------------")
+
 print("1 - View Image")
 print("2 - Object Detection")
 
 choice = input("Choose option: ")
 
+
 if choice == "1":
-    image_viewer
+    show_image()
 
 elif choice == "2":
-    object_detection
+    detect_objects()
 
 else:
     print("Invalid choice")
