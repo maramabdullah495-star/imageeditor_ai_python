@@ -51,9 +51,3 @@ def detect_objects(img):
             (0, 0, 255),
             thickness=2
         )
-
-
-    cv2.imshow('Object Detection', img)
-
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
