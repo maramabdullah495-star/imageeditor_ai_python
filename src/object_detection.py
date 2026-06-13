@@ -1,9 +1,7 @@
 import cv2
 
 
-def detect_objects():
-
-    img = cv2.imread('../images/employee.png')
+def detect_objects(img):
 
     classNames = []
 
