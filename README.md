@@ -1,37 +1,25 @@
-# Image Editor AI Python
+# AI Image Processing Platform
 
 ## Overview
 
-An AI-powered image editing project built using Python.
-This project explores image processing and artificial intelligence techniques
-for enhancing and modifying images.
+An AI-powered image processing platform using Python, OpenCV, and FastAPI.
+
+The project provides image analysis capabilities through a REST API.
 
 ## Features
 
 - Image processing
-- AI-based image enhancement
-- Image editing operations
-- Python-based implementation
+- Object detection using SSD MobileNet
+- OpenCV-based computer vision
+- FastAPI REST API
+- Image upload processing
 
 ## Technologies
 
 - Python
-- Artificial Intelligence
-- Image Processing
+- OpenCV
+- FastAPI
+- NumPy
+- Deep Learning
 
-## Project Purpose
-
-This project is a learning and development project focused on combining
-software development with AI and image manipulation.
-
-## Future Improvements
-
-- Build a web interface
-- Add REST API
-- Improve AI models
-- Add database support
-- Expand into medical image processing applications
-
-## Author
-
-Maram Abdullah
+## Project Structure
