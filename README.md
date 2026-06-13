@@ -23,3 +23,24 @@ The project provides image analysis capabilities through a REST API.
 - Deep Learning
 
 ## Project Structure
+api/
+main.py
+
+src/
+image_viewer.py
+object_detection.py
+
+files/
+AI model files
+
+## Future Improvements
+
+- Add React / Next.js frontend
+- Add database support
+- Add user authentication
+- Extend to medical image analysis
+- Add automated testing
+
+## Author
+
+Maram Abdullah
